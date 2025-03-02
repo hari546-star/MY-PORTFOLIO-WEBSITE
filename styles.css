@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #222 url('https://i.ibb.co/FLskFK5X/hari-naidu-formal.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    text-align: center;
+    padding: 20px;
+    background: rgba(68, 68, 68, 0.8);
+}
+
+.intro {
+    text-align: center;
+    margin: 40px 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    margin-bottom: 20px;
+}
+
+.about-me, .education, .certificates, .skills, .contact-me {
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.about-me h2, .education h2, .certificates h2, .skills h2, .contact-me h2 {
+    text-align: center;
+}
+
+.education div, .certificates .certificate-card, .skills ul {
+    margin: 20px 0;
+}
+
+.certificates {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.certificate-card {
+    background: rgba(51, 51, 51, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.certificate-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.certificate-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: rgba(51, 51, 51, 0.8);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.skills li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.revealed {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-me p {
+    text-align: center;
+}
+
+.contact-icons {
+    text-align: center;
+    margin: 20px 0
